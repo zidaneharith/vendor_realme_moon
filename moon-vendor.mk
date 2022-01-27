@@ -19,6 +19,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Kernel modules
 PRODUCT_COPY_FILES += \
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/bin/hw/hostapd:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/hw/hostapd \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/bt_drv.ko \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/fmradio_drv.ko \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/gps_drv.ko \

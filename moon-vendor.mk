@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_drv.ko
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/etc/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/audio_effects.xml \
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/diracmobile.config \
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libDiracAPI_SHARED.so \
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libdirac.so \
 
 # Kpoc blobs
 PRODUCT_COPY_FILES += \

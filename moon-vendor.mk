@@ -31,6 +31,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libDiracAPI_SHARED.so \
     vendor/realme/moon/proprietary/product/vendor_overlay/30/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libdirac.so \
 
+# HWUI
+PRODUCT_COPY_FILES += \
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/etc/powercontable.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powercontable.xml \
+    vendor/realme/moon/proprietary/product/vendor_overlay/30/etc/powerscntbl.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powerscntbl.xml \
+
 # Kpoc blobs
 PRODUCT_COPY_FILES += \
     vendor/realme/moon/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
